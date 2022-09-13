@@ -1,0 +1,24 @@
+p {
+  font-family: Montserrat;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.model {
+  text-align: center;
+  font-weight: bold;
+  font-size: 45px;
+  margin-bottom: 17px;
+}
+.description {
+  text-align: center;
+  font-size: 18px;
+}
+
+.span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.span:hover {
+  text-decoration: none;
+}
