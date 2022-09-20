@@ -3,7 +3,7 @@
   <head>
     <title>Grid Practice</title>
   </head>
-  <body style="padding-bottom: 200px">
+  <body style="padding-bottom: col1">
     <div style="display: grid; grid-template-columns: 100px 100px">
       <div style="background-color: lightblue">Div 1</div>
       <div style="background-color: lightpink">
@@ -16,7 +16,7 @@
       style="
         margin-top: 30px;
         display: grid;
-        grid-template-columns: 100px 100px 200px;
+        grid-template-columns: 100px 100px col1;
       "
     >
       <div style="background-color: lightblue">100px</div>
@@ -24,7 +24,7 @@
         100px
         <p>text</p>
       </div>
-      <div style="background-color: lightblue">200px</div>
+      <div style="background-color: lightblue">col1</div>
       <div style="background-color: lightpink">100px</div>
     </div>
 
@@ -39,24 +39,31 @@
       style="
         margin-top: 30px;
         display: grid;
-        grid-template-columns: 100px 1fr 2fr;
+        grid-template-columns: 50px 1fr 75px;
       "
     >
-      <div style="background-color: lightblue">100px</div>
-      <div style="background-color: lightpink">1fr</div>
-      <div style="background-color: lightblue">2fr</div>
+      <div style="background-color: lightblue">col1</div>
+      <div style="background-color: lightpink">col2</div>
+      <div style="background-color: lightblue">col3</div>
     </div>
 
     <div
       style="
         margin-top: 30px;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 10px;
       "
     >
-      <div style="background-color: lightblue; height: 200px">1fr</div>
-      <div style="background-color: lightpink; height: 200px">1fr</div>
-      <div style="background-color: lightblue; height: 200px">1fr</div>
+      <div style="background-color: lightblue; height: 30px">col1</div>
+      <div style="background-color: lightpink; height: 30px">col2</div>
+      <div style="background-color: lightblue; height: 30px">col3</div>
+      <div style="background-color: lightpink; height: 30px">col4</div>
+      <div style="background-color: lightblue; height: 30px">col1</div>
+      <div style="background-color: lightpink; height: 30px">col2</div>
+      <div style="background-color: lightblue; height: 30px">col3</div>
+      <div style="background-color: lightpink; height: 30px">col4</div>
     </div>
   </body>
 </html>
